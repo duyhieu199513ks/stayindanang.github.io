@@ -1,0 +1,1 @@
+document.addEventListener('click',function(e){const a=e.target.closest('a.affiliate-link');if(!a)return;window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'affiliate_click',affiliate_partner:'trip_com',affiliate_url:a.href,source_page:location.pathname});});
